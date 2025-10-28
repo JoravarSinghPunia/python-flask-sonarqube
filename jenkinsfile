@@ -6,7 +6,7 @@ pipeline {
     stage('Checkout') {
         steps {
           // Get some code from a GitHub repository
-          git branch: 'main', url: 'https://github.com/QA-Instructor/python-flask-sonarqube.git'
+          git branch: 'main', url: 'https://github.com/JoravarSinghPunia/python-flask-sonarqube.git'
         }
     }
     stage('SonarQube Analysis') {
